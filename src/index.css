@@ -1,0 +1,7 @@
+/* Global tweaks for cross-platform consistency */
+/* Prevent iOS text size adjust and ensure consistent box-sizing */
+html{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;}
+*,*::before,*::after{box-sizing:border-box}
+
+/* Base font sizing (mobile-first). Use clamp where specific components need scaling. */
+html,body{font-family:Inter, "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial;}
